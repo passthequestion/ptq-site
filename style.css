@@ -1,0 +1,10 @@
+:root { --bg: #0E1320; --panel: #1A2234; --ink: #E9ECF1; --soft: #A3A9B8; --acc: #4FE0EE; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.65 "IBM Plex Sans", system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 20px 72px; }
+h1 { font-size: 34px; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 21px; margin: 32px 0 8px; color: var(--acc); }
+p, li { color: var(--ink); } .soft { color: var(--soft); font-size: 15px; }
+a { color: var(--acc); }
+nav { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 36px; font-size: 15px; }
+footer { margin-top: 48px; color: var(--soft); font-size: 14px; border-top: 1px solid var(--panel); padding-top: 16px; }
